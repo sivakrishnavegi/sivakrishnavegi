@@ -51,7 +51,7 @@ const Main = () => {
               <MDBCol md='6' xl='5' className='mt-xl-5'>
                 <MDBAnimation type='fadeInRight' delay='.3s'>
                   <img
-                    src='https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png'
+                    src='https://pbs.twimg.com/profile_images/1345988850758258690/VPi03WO1_400x400.jpg'
                     alt=''
                     className='img-fluid'
                   />
@@ -65,21 +65,18 @@ const Main = () => {
           <MDBRow className='py-5'>
             <MDBCol md='12' className='text-center'>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Hi hello welcome to my profie ,i'm a mern stack developer 
+              & free lancer if you are looking for one ping me :)
               </p>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
       <Projects/>
       <Timeline />
+      <a href="SocialMedia" />
+      <div id="SocialMedia">
       <MDBContainer className="text-center"> 
-        <h1>Find us on Social Media</h1>
+        <h1>Find me on Social Media</h1>
       <MDBRow className='py-5'>
         <MDBCol md='4' className='text-center'> 
         <div class="fb-page" data-href="https://www.facebook.com/sivakrishna.vegi.offical/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/sivakrishna.vegi.offical/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/sivakrishna.vegi.offical/">Siva krishna vegi</a></blockquote></div>
@@ -98,7 +95,9 @@ const Main = () => {
       </MDBCol>
         </MDBRow>
       </MDBContainer>
-        </div>
+       
+      </div>
+      </div>
        <MDBContainer>
          <MDBCard>
            <MDBRow>
@@ -111,9 +110,9 @@ const Main = () => {
              </MDBCol>
              <MDBCol md="6" className="mx-auto align-self-center py-4">
              <h6 class="font-weight-bold grey-text text-uppercase small">Reach Me</h6>
-          <h5 class="font-weight-normal mb-4">Jalandhar, Punjab</h5>
-          <p class="text-muted font-weight-light">you know Law Gate LPU<br /> PUNJAB, 144411</p>
-          <p class="text-muted font-weight-light mb-0">Email: sivakrishnavegi@yahoo.com, support@filmfxstudio.com</p>
+          <h5 class="font-weight-normal mb-4">Vizag, Andhra Pradesh</h5>
+          <p class="text-muted font-weight-light">Defence colony<br /> Andhra Pradesh, 531031</p>
+          <p class="text-muted font-weight-light mb-0">Email: sivakrishnavegi@yahoo.com,</p>
                
                </MDBCol>
            </MDBRow>

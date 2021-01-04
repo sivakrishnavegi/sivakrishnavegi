@@ -50,7 +50,7 @@ const NavBar = () => {
             >
               <MDBContainer>
                 <MDBNavbarBrand>
-                  <strong className='white-text'>MDB</strong>
+                  <strong className='white-text'>VSK</strong>
                 </MDBNavbarBrand>
                 <MDBNavbarToggler onClick={handleTogglerClick} />
                 <MDBCollapse isOpen={collapsed} navbar>
@@ -59,22 +59,22 @@ const NavBar = () => {
                       <MDBNavLink to='#'>Home</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink to='#!'>Link</MDBNavLink>
+                      <MDBNavLink to='#!'>View Projects</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink to='/socialMedia'>socialMedia</MDBNavLink>
+                      <MDBNavLink to='#SocialMedia'>socialMedia</MDBNavLink>
                     </MDBNavItem>
                   </MDBNavbarNav>
                   
                   <MDBNavbarNav right>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#!">
+              <MDBNavLink className="waves-effect waves-light" to="https://twitter.com/sivakrishnavegi">
                 <MDBIcon fab icon="twitter" />
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#!">
-                <MDBIcon fab icon="google-plus-g" />
+              <MDBNavLink className="waves-effect waves-light" to="https://github.com/sivakrishnavegi">
+                <MDBIcon fab icon="github" />
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
@@ -83,10 +83,9 @@ const NavBar = () => {
                   <MDBIcon icon="user" />
                 </MDBDropdownToggle>
                 <MDBDropdownMenu className="dropdown-default">
-                  <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Login</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Signup</MDBDropdownItem>
+                  
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
@@ -100,37 +99,10 @@ const NavBar = () => {
         </Router>
    </div>
    <MDBFooter color="blue" className="font-small pt-4 mt-4">
-      <MDBContainer fluid className="text-center text-md-left">
-        <MDBRow>
-          <MDBCol md="6">
-            <h5 className="title">Footer Content</h5>
-            <p>
-              Here you can use rows and columns here to organize your footer
-              content.
-            </p>
-          </MDBCol>
-          <MDBCol md="6">
-            <h5 className="title">Links</h5>
-            <ul>
-              <li className="list-unstyled">
-                <a href="#!">Link 1</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 2</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 3</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-          </MDBCol>
-        </MDBRow>
-      </MDBContainer>
+     
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> MDBootstrap.com </a>
+          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.sivakrishnavegi.netlify.com"> sivakrishnavegi.netlify.com </a>
         </MDBContainer>
       </div>
     </MDBFooter>

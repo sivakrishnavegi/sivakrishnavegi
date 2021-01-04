@@ -62,7 +62,7 @@ completeDesc:'Got Trained from exprerts'
   
   <h3 className="font-weight-bold text-center dark-grey-text pb-2">My Journey</h3>
   <hr className="w-header my-4" />
-  <p className="lead text-center text-muted pt-2 mb-5">..</p>
+  {/* <p className="lead text-center text-muted pt-2 mb-5"></p> */}
   
   <div className="row">
     <div className="col-lg-8 mx-auto">
@@ -72,12 +72,12 @@ completeDesc:'Got Trained from exprerts'
      
        {TimelinePoints.map(Timeline=> {
         return (
-          <li class="timeline-element" key={Timeline.key}>
-             <h5 class="font-weight-bold dark-grey-text mb-3">{Timeline.title}</h5>
-          <p class="grey-text font-small"><time datetime="1998-03-26">{Timeline.timelineDate}</time></p>
-          <p class="text-muted">{Timeline.descripition}</p>
-          <p><img class="img-fluid z-depth-1-half rounded" src={Timeline.imgURL} alt="siva krishna vegi" /></p>
-          <p class="text-muted">{Timeline.completeDesc}</p>
+          <li className="timeline-element" key={Timeline.key}>
+             <h5 className="font-weight-bold dark-grey-text mb-3">{Timeline.title}</h5>
+          <p className="grey-text font-small"><time datetime="1998-03-26">{Timeline.timelineDate}</time></p>
+          <p className="text-muted">{Timeline.descripition}</p>
+          <p><img className="img-fluid z-depth-1-half rounded" src={Timeline.imgURL} alt="siva krishna vegi" /></p>
+          <p className="text-muted">{Timeline.completeDesc}</p>
           </li>
           
         );

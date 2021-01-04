@@ -7,6 +7,7 @@ import {
     MDBNavLink,
     MDBNavbarToggler,
     MDBCollapse,
+    MDBNotification,
     MDBMask,
     MDBRow,
     MDBCol,
@@ -25,6 +26,7 @@ const Main = () => {
     return (
       <>
           <div>
+            
                  <MDBView>
           <MDBMask className='white-text gradient' />
           <MDBContainer
@@ -39,7 +41,12 @@ const Main = () => {
                   </h1>
                   <hr className='hr-light' />
                   <h6 className='mb-4'>
-                  Siva Krishna Vegi is MCA post graduate from Lovely Professional University native of vizag.The beautiful city which is know as city of destiny where my destiny began on 26th march 1998.i love designig websites because its fun and pasion too.i'm the blogger of filmfxstudio.com and wait one more thing "Self Respect is Everthing never let yourself down" :)
+                  Siva Krishna Vegi is MCA post graduate from Lovely Professional University
+                   native of vizag.
+                   The beautiful city which is know as city of destiny
+                    where my destiny began on 26th march 1998.
+                    i love designig websites because its fun and pasion too
+                      :)
                   </h6>
                   <MDBBtn color='white'>Download cv</MDBBtn>
                   <MDBBtn outline color='white'>
@@ -60,8 +67,9 @@ const Main = () => {
             </MDBRow>
           </MDBContainer>
         </MDBView>
-
+      
         <MDBContainer>
+        
           <MDBRow className='py-5'>
             <MDBCol md='12' className='text-center'>
               <p>
@@ -70,10 +78,22 @@ const Main = () => {
               </p>
             </MDBCol>
           </MDBRow>
+          <center>
+          <MDBNotification
+          className="text-center"
+        show
+        fade
+        iconClassName="text-primary"
+        title="hey !"
+        message="Hi thanks for visiting my page ... This website is still under devlopment sorry for inconvience"
+        text="vist again"
+      />
+          </center>
+          <br  />
         </MDBContainer>
       <Projects/>
       <Timeline />
-      <a href="SocialMedia" />
+      <a href="#SocialMedia" />
       <div id="SocialMedia">
       <MDBContainer className="text-center"> 
         <h1>Find me on Social Media</h1>
@@ -139,7 +159,7 @@ const Main = () => {
  </section>
  
 
-
+ 
 </div>
 
          </MDBContainer>
